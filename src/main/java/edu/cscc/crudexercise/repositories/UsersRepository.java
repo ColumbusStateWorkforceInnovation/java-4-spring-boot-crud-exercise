@@ -57,4 +57,12 @@ public class UsersRepository {
     public Boolean delete(Integer id) {
         return users.remove(id) != null;
     }
+
+    public void deleteAll() {
+        users.clear();
+    }
+
+    public List<User> findAll() {
+        return users.values().stream().toList();
+    }
 }

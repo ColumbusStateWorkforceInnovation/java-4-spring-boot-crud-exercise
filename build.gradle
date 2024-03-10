@@ -20,6 +20,7 @@ dependencies {
 	// https://mvnrepository.com/artifact/jakarta.inject/jakarta.inject-api
 	implementation("jakarta.inject:jakarta.inject-api:2.0.1")
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.2'
 }
 
 tasks.named('test') {
